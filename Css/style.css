@@ -1,0 +1,104 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+nav{
+    height: 100%;
+    width: 15.625rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#111;
+   display: none;
+    padding-top: 60px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav .nav-nav .nav-item .nav-link:hover {
+    color: rgba(214, 46, 51, 0.6) !important;
+}
+
+nav .icon{
+    cursor: pointer;
+}
+
+header{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url('../imges/events-heavenly-header.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .open{
+    cursor: pointer;
+   position: absolute;
+   left: 10px;
+
+}
+section{
+    margin-top: 60px;
+    
+}
+section .title1,.title2,.title3,.title4{
+
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 60%;
+   cursor: pointer;
+    margin-bottom: 0;
+    
+}
+section .caption-title1{
+    background-color: #CCCCCC;
+    width: 60%;
+    
+}
+section .caption-title2,.caption-title3,.caption-title4{
+    background-color: #CCCCCC;
+    width: 60%;
+    display: none;
+}
+#count{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url('../imges/invitation-2508607__340.jpg');
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+#count .time{
+    border: 1px solid black;
+    height: 200px;
+    display: flex; 
+    justify-content: center;
+}
+#count .time span{
+    color: #FFFFFF;
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .socil-icon i{
+    margin-left: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer .socil-icon i:hover{
+    color: white;
+    background-color: rgb(174, 80, 80);
+}
